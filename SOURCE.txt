@@ -1,0 +1,15 @@
+csv-reader 1.0.0, make.fun's own reference program, as the house entry.
+
+  source    https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.2.tgz
+            (the first upstream it derives from, below)
+  licence   MIT (LICENSE, NOTICE, kept beside the package)
+  tree      vendor/csv-reader/ digests to ffd505d41c6f3a676ec699868df8984954b401f0f73a0338f265b4e9b9e82440
+            (server/competitions/load.ts treeSha256: the bytes the subject file names)
+  called    vendor/csv-reader/index.js, its readCsv, on each case's input
+  derived   d3-dsv 3.0.2, ISC, https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.2.tgz
+            Copyright 2013-2026 Mike Bostock
+            papaparse 5.7.1, MIT, https://registry.npmjs.org/papaparse/-/papaparse-5.7.1.tgz
+            Copyright (c) 2015 Matthew Holt
+
+vendor/csv-reader/ is make.fun's own code, not a vendored package: its LICENSE is make.fun's (MIT), and its NOTICE
+carries each upstream's licence and copyright line word for word.

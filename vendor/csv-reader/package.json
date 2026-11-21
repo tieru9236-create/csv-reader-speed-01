@@ -1,0 +1,8 @@
+{
+  "name": "csv-reader",
+  "version": "1.0.0",
+  "description": "make.fun's own CSV reader with a written broken-row policy: the reference program of csv-reader-speed-01",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js"
+}
